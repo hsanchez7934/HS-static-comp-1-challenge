@@ -243,7 +243,7 @@ img:hover {
   display: none;
 }
 
-@media (max-width: 1800px) {
+@media (max-width: 1200px) {
   aside {
     display: none;
     float: none;
@@ -276,30 +276,29 @@ img:hover {
   #box2-image-text-container {
     width: 33.33%;
     display: inline-block;
-    padding-top: 215px;
+    padding-top: 180px;
     padding-bottom: 80px;
   }
 
   #box1 {
     text-align: center;
-    padding: 11% 3% 0%;
   }
 
-  #profile-text {
+  /*#profile-text {
     font-size: 30px;
-  }
+  }*/
 
-  h1 {
+  /*h1 {
     font-size: 70px;
-  }
+  }*/
 
-  .top-buttons {
+  /*.top-buttons {
     font-size: 25px;
     height: 70px;
     width: 200px;
-  }
+  }*/
 }
-@media (max-width: 1500px) {
+@media (max-width: 950px) {
 
   #left-image,
   #right-image {
@@ -425,18 +424,18 @@ img:hover {
     float: right;
   }
 
-  img {
+  /*img {
     height: 140px;
     width: 140px;
-  }
+  }*/
 
-  .logo-names {
+  /*.logo-names {
     font-size: 35px;
-  }
+  }*/
 
 
 }
-@media (max-width: 1050px) {
+@media (max-width: 650px) {
   .last-images {
     display: none;
   }
@@ -451,17 +450,12 @@ img:hover {
     align-items: center;
   }
 
-  img {
+  /*img {
     height: 180px;
     width: 180px;
-  }
+  }*/
 
-  .logo-names {
+  /*.logo-names {
     font-size: 40px;
-  }
-}
-@media (max-width: 2800px) {
-  #box1 {
-    padding: 9% 3% 0%;
-  }
+  }*/
 }

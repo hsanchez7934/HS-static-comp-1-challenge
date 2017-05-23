@@ -1,4 +1,5 @@
 $('#front-arrow').on('click', switchImage);
+$('#back-arrow').on('click', switchBack);
 
 function switchImage() {
   console.log('test');
@@ -8,7 +9,6 @@ function switchImage() {
   }
 }
 
-$('#back-arrow').on('click', switchBack);
 function switchBack() {
   var imageContainer = $('aside');
   if(imageContainer.css('backgroundImage', 'url(assets/johndilinger.jpg)')) {

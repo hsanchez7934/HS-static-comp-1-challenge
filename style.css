@@ -42,10 +42,10 @@ main {
 h1 {
   color: #fff;
   margin-top: 0;
-  margin-bottom: 15px;
+  margin-bottom: 30px;
   font-family: 'Vollkorn', serif;
   font-weight: 400;
-  font-size: 40px;
+  font-size: 50px;
 }
 
 section {
@@ -53,8 +53,8 @@ section {
 }
 
 img {
-  height: 80px;
-  width: 80px;
+  height: 100px;
+  width: 100px;
 }
 
 img:hover {
@@ -90,15 +90,15 @@ img:hover {
 #profile-text {
   color: #fff;
   margin-top: 0;
-  margin-bottom: 20px;
-  font-size: 15px;
+  margin-bottom: 50px;
+  font-size: 18px;
 }
 
 #box1 {
   width: 66%;
   flex-grow: 1;
   background-color: #172231;
-  /*padding: 5% 3% 0%;*/
+  padding: 5% 3% 0%;
 }
 
 #box2 {
@@ -144,7 +144,7 @@ img:hover {
 }*/
 .logo-names {
   color: #fff;
-  font-size: 15px;
+  font-size: 18px;
 }
 
 .arrow-buttons {
@@ -243,23 +243,7 @@ img:hover {
   display: none;
 }
 
-#top-section {
-  width: 100%;
-  height: 60%;
-  /*background-color: pink;*/
-  padding-top: 30px;
-  padding-left: 20px;
-}
-
-#bottom-section {
-  width: 100%;
-  height: 40%;
-  /*background-color: lavender;*/
-  padding-top: 10px;
-  padding-left: 20px;
-  }
-
-@media (max-width: 1150px) {
+@media (max-width: 1800px) {
   aside {
     display: none;
     float: none;
@@ -292,20 +276,36 @@ img:hover {
   #box2-image-text-container {
     width: 33.33%;
     display: inline-block;
-    padding-top: 80px;
+    padding-top: 215px;
     padding-bottom: 80px;
   }
 
   #box1 {
     text-align: center;
+    padding: 11% 3% 0%;
+  }
+
+  #profile-text {
+    font-size: 30px;
+  }
+
+  h1 {
+    font-size: 70px;
+  }
+
+  .top-buttons {
+    font-size: 25px;
+    height: 70px;
+    width: 200px;
   }
 }
-@media (max-width: 850px) {
+@media (max-width: 1500px) {
 
   #left-image,
   #right-image {
     display: none;
   }
+
   #box2 {
     width: 100%;
   }
@@ -342,6 +342,7 @@ img:hover {
 
 #box2-image-text-container {
   width: 50%;
+  padding-top: 180px;
 }
 
 .image-text-container {
@@ -358,6 +359,9 @@ img:hover {
   }
 #box2-image-text-container {
   float: left;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 #box3-image-text-container {
   float: right;
@@ -420,8 +424,19 @@ img:hover {
     background-repeat: no-repeat;
     float: right;
   }
+
+  img {
+    height: 140px;
+    width: 140px;
+  }
+
+  .logo-names {
+    font-size: 35px;
+  }
+
+
 }
-@media (max-width: 550px) {
+@media (max-width: 1050px) {
   .last-images {
     display: none;
   }
@@ -431,5 +446,22 @@ img:hover {
   }
   #box2-image-text-container {
     width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  img {
+    height: 180px;
+    width: 180px;
+  }
+
+  .logo-names {
+    font-size: 40px;
+  }
+}
+@media (max-width: 2800px) {
+  #box1 {
+    padding: 9% 3% 0%;
   }
 }

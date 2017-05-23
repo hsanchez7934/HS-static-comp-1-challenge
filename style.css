@@ -1,0 +1,420 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  margin: 0;
+  height: 100%;
+  width: 100%;
+  font-family: 'Libre Franklin', sans-serif;
+}
+
+body:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+aside {
+  height: 100%;
+  width: 40%;
+  float: right;
+  background-image: url(assets/johndilinger.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+}
+
+main {
+  height: 100%;
+  width: 60%;
+  float: left;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+h1 {
+  color: #fff;
+  margin-top: 0;
+  margin-bottom: 15px;
+  font-family: 'Vollkorn', serif;
+  font-weight: 400;
+  font-size: 40px;
+}
+
+section {
+  height: 33.33%;
+}
+
+img {
+  height: 80px;
+  width: 80px;
+}
+
+img:hover {
+  height: 100px;
+  width: 100px;
+  cursor: pointer;
+}
+
+.top-buttons {
+  height: 40px;
+  width: 120px;
+  border: 1px solid #fff;
+  background-color: inherit;
+  color: #fff;
+  font-size: 15px;
+}
+
+.top-buttons:hover {
+  background-color: #4891a1;
+  border-width: 4px;
+  border-style: ridge;
+  cursor: pointer;
+}
+
+.top-buttons:focus {
+  outline: inherit;
+}
+
+#record-button {
+  margin-right: 20px;
+}
+
+#profile-text {
+  color: #fff;
+  margin-top: 0;
+  margin-bottom: 20px;
+  font-size: 15px;
+}
+
+#box1 {
+  width: 66%;
+  flex-grow: 1;
+  background-color: #172231;
+  padding: 5% 3% 0%;
+}
+
+#box2 {
+  width: 33.33%;
+  background-color: #4891a1;
+}
+
+#box3 {
+  width: 33.33%;
+  background-color: #ccc8c8;
+}
+
+#box4 {
+  width: 33.33%;
+  background-color: #659db8;
+
+}
+
+#box5 {
+  width: 33.33%;
+  background-color: #172231;
+}
+
+#box6 {
+  width: 33.33%;
+  background-color: #224a63;
+}
+
+#box7 {
+  width: 33.33%;
+  background-color: #ccc8c8;
+}
+
+#box8 {
+  width: 33.33%;
+  background-color: #224a63;
+}
+/*.logo-arrange {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}*/
+.logo-names {
+  color: #fff;
+  font-size: 15px;
+}
+
+.arrow-buttons {
+  height: 50px;
+  width: 50px;
+  border-width: 0px;
+  background-color: #000;
+  border-radius: 30px;
+}
+
+#back-arrow {
+  background-image: url(assets/lessthan.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  float: left;
+  margin-left: 20px;
+}
+
+#front-arrow {
+  background-image: url(assets/greaterthan.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  float: right;
+  margin-right: 20px;
+}
+
+#front-arrow:hover {
+  background-color: #fff;
+}
+
+#front-arrow:focus {
+  outline: inherit;
+}
+
+#back-arrow:hover {
+  background-color: #fff;
+}
+
+#back-arrow:focus {
+  outline: inherit;
+}
+
+#aside-buttons-container {
+  width: 100%;
+  height: 55px;
+}
+#aside-buttons:after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+.image-box {
+  background-color: pink;
+  /*height: 33.33%;*/
+  width: 33.33%;
+}
+
+#profile-logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#profile-words {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+#left-image {
+  display: none;
+  float: left;
+  background-image: url(assets/johndil2.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#right-image {
+  display: none;
+  float: right;
+  background-image: url(assets/johndil3.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.image-text-container {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.last-images {
+  display: none;
+  background-color: pink;
+}
+
+@media (max-width: 1050px) {
+  aside {
+    display: none;
+    float: none;
+  }
+
+  main {
+    width: 100%;
+    float: none;
+    height: 100%;
+  }
+
+  #box1 {
+    width: 67%;
+  }
+
+  #box2 {
+    width: 100%;
+  }
+
+  #left-image {
+    display: inline-block;
+    height: 100%;
+  }
+
+  #right-image {
+    display: inline-block;
+    height: 100%;
+  }
+
+  #box2-image-text-container {
+    width: 33.33%;
+    display: inline-block;
+    padding-top: 80px;
+    padding-bottom: 80px;
+  }
+
+  #box1 {
+    text-align: center;
+  }
+}
+@media (max-width: 750px) {
+
+  #left-image,
+  #right-image {
+    display: none;
+  }
+  #box2 {
+    width: 100%;
+  }
+
+  #box2:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  #box3 {
+    width: 100%;
+  }
+  #box4 {
+    width: 100%;
+  }
+  #box5 {
+    width: 100%;
+  }
+  #box6 {
+    width: 100%;
+  }
+  #box7 {
+    width: 100%;
+  }
+  #box8 {
+    width: 100%;
+  }
+.logo-arrange:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+#box2-image-text-container {
+  width: 50%;
+}
+
+.image-text-container {
+  /*background-color: pink;*/
+  width: 50%;
+  /*float: left;*/
+}
+
+.last-images {
+  width: 50%;
+  height: 100%;
+  display: inline-block;
+  /*float: right;*/
+  }
+#box2-image-text-container {
+  float: left;
+}
+#box3-image-text-container {
+  float: right;
+}
+#box4-image-text-container {
+  float: left;
+}
+#box5-image-text-container {
+  float: right;
+}
+#box6-image-text-container {
+  float: left;
+}
+#box7-image-text-container {
+  float: right;
+}
+#box8-image-text-container {
+  float: left;
+}
+
+  #image-last-box2 {
+    background-image: url(assets/lastimage2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    float: right;
+  }
+  #image-last-box3 {
+    background-image: url(assets/lastimage3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    float: left;
+  }
+  #image-last-box4 {
+    background-image: url(assets/lastimage4.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    float: right;
+  }
+  #image-last-box5 {
+    background-image: url(assets/lastimage5.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    float: left;
+  }
+  #image-last-box6 {
+    background-image: url(assets/lastimage6.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    float: right;
+  }
+  #image-last-box7 {
+    background-image: url(assets/lastimage7.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    float: left;
+  }
+  #image-last-box8 {
+    background-image: url(assets/lastimage8.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    float: right;
+  }
+}
+@media (max-width: 550px) {
+  .last-images {
+    display: none;
+  }
+
+  .image-text-container {
+    width: 100%;
+  }
+  #box2-image-text-container {
+    width: 100%;
+  }
+}

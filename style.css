@@ -98,7 +98,7 @@ img:hover {
   width: 66%;
   flex-grow: 1;
   background-color: #172231;
-  padding: 5% 3% 0%;
+  /*padding: 5% 3% 0%;*/
 }
 
 #box2 {
@@ -241,10 +241,25 @@ img:hover {
 
 .last-images {
   display: none;
-  background-color: pink;
 }
 
-@media (max-width: 1050px) {
+#top-section {
+  width: 100%;
+  height: 60%;
+  /*background-color: pink;*/
+  padding-top: 30px;
+  padding-left: 20px;
+}
+
+#bottom-section {
+  width: 100%;
+  height: 40%;
+  /*background-color: lavender;*/
+  padding-top: 10px;
+  padding-left: 20px;
+  }
+
+@media (max-width: 1150px) {
   aside {
     display: none;
     float: none;
@@ -285,7 +300,7 @@ img:hover {
     text-align: center;
   }
 }
-@media (max-width: 750px) {
+@media (max-width: 850px) {
 
   #left-image,
   #right-image {

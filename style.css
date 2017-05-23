@@ -42,10 +42,10 @@ main {
 h1 {
   color: #fff;
   margin-top: 0;
-  margin-bottom: 30px;
+  margin-bottom: 20px;
   font-family: 'Vollkorn', serif;
   font-weight: 400;
-  font-size: 50px;
+  font-size: 40px;
 }
 
 section {
@@ -53,8 +53,8 @@ section {
 }
 
 img {
-  height: 100px;
-  width: 100px;
+  height: 80px;
+  width: 80px;
 }
 
 img:hover {
@@ -90,8 +90,8 @@ img:hover {
 #profile-text {
   color: #fff;
   margin-top: 0;
-  margin-bottom: 50px;
-  font-size: 18px;
+  margin-bottom: 30px;
+  font-size: 15px;
 }
 
 #box1 {
@@ -144,7 +144,7 @@ img:hover {
 }*/
 .logo-names {
   color: #fff;
-  font-size: 18px;
+  font-size: 15px;
 }
 
 .arrow-buttons {
